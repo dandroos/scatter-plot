@@ -1,0 +1,11 @@
+#tooltip{
+    // border: 1px solid;
+
+    padding: 1rem;
+    background: rgba($black, .9);
+    color: white;
+    font-size: .8rem;
+    box-shadow: 0 1rem 2rem $black;
+    transition-property: opacity, z-index;
+    transition-duration: .25s;     
+}

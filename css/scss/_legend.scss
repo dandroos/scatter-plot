@@ -1,0 +1,12 @@
+#legend{
+    stroke: 10px;
+    font-size:.65rem;
+
+    &_border{
+        fill: white;
+        stroke: $black;
+        stroke-width: .5;
+        width: 215px;
+        height: 60px;
+    }
+}

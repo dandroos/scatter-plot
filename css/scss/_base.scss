@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+
+    background: radial-gradient(transparent, rgba($black, .7)),
+    radial-gradient(rgba($primary, .8), rgba($primary, .9)),
+    url($bg_image);
+    background-size: cover;
+    background-position: center;
+    color: $black;
+
+    font-family: $font;
+}
+
+#scatter{
+
+}

@@ -1,0 +1,49 @@
+#scatter{
+    padding: 2rem;
+    box-shadow: inset 0 0 .5rem $black;
+    background: radial-gradient(rgba(white, .25), rgba(white, .25));
+    border-radius: .2rem;
+    width: 50%;
+}
+
+#title, #subtitle{
+    text-align: center;
+}
+
+#title{
+    font-size: 1.5rem;
+}
+
+#subtitle{
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+text{
+    color: $black;
+}
+
+.dot{
+    
+
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.safe, .danger{
+    stroke: $black;
+    stroke-width: 1px;
+}
+
+.safe{
+    fill: $safe;
+}
+
+.danger{
+    fill: $danger;
+}
+
+.tick{
+    font-family: 'Ubuntu';
+}
